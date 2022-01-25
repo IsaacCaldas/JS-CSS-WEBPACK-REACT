@@ -9,7 +9,6 @@ export default props => {
       <div className='display-4 color'>Hello!</div>
       <hr />
       <p className='mb-0 color'>CRUD System</p>
-
     </Main>
 
   );
