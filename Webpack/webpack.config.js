@@ -1,12 +1,24 @@
+const devMode = process.env.NODE_ENV !== 'production';
 const webpack = require('webpack');
 const miniCssExtractPlugin = require('mini-css-extract-plugin');
+const uglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const OptimizeCSSAssestsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
-  mode: 'development',
+  mode: devMode ? 'development' : 'production',
   entry: './src/main.js',
   output: {
     filename: 'main.js',
     path: __dirname + '/public'
+  },
+  optimization: {
+    minimizer: [
+      new uglifyJsPlugin({
+        cache: true,
+        parallel: true
+      }),
+      new OptimizeCSSAssestsPlugin({})
+    ]
   },
   plugins: [
     new miniCssExtractPlugin({
