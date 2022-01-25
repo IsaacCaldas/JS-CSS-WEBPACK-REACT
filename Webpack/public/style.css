@@ -1,1 +1,12 @@
-body{background-color:#151515}.button{background-color:#1460ac;color:#fff;font-size:1.5rem}
+body {
+  background-color: #151515;
+  background-image: url(ebbdec1d2fccf423281273e325d69655.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh; }
+
+.button {
+  background-color: #1460ac;
+  color: #fff;
+  font-size: 1.5rem; }
+
