@@ -1,0 +1,22 @@
+aside.menu-area {
+  background-color: #2b3236;
+}
+
+aside.menu-area nav, i{
+  background-color: #2b3236;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  color: #ededed;
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 15px 15px 0px;
+}
+.menu a:hover{
+  color: #aaa;
+}
+.menu a:nth-child(1){
+  padding: 15px 15px 0px;
+}

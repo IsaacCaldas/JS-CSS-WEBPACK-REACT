@@ -7,7 +7,7 @@ export default props => {
 
   return (
     <>
-      <Header />
+      <Header {...props} />
       <main className="content">
         Main
       </main>

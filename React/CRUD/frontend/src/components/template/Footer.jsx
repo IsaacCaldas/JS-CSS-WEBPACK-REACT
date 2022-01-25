@@ -6,7 +6,9 @@ export default props => {
   return (
 
     <footer className="footer">
-      Footer
+      <span>
+        All rights reserved &copy; <b><em>Isaac Tavares Caldas Gonçalves</em></b>
+      </span>
     </footer>
 
   );

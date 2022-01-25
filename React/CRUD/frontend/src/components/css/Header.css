@@ -1,0 +1,19 @@
+header.header {
+  background-color: #1e2529;
+  padding: 0px 15px;
+  overflow: hidden;
+  white-space: nowrap;
+  box-shadow: var(--shadow);
+}
+
+header.header h1{
+  font-size: 1.8em;
+  background-color: #1e2529
+}
+
+header.header i{ 
+  background-color: #1e2529;
+}
+header.header p{
+  background-color: #1e2529;
+}
