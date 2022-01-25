@@ -9,7 +9,7 @@ export default props => {
     <>
       <Header />
       <main className="content">
-
+        Main
       </main>
     </>
   );
