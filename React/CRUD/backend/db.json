@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Isaac Tavares Caldas Gonçalves",
+      "email": "isaacdev@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "João Hcode",
+      "email": "joao@hcode.com"
+    },
+    {
+      "id": 3,
+      "name": "Wagner Cardoso",
+      "email": "wagnercardoso@bootstrap.com"
+    }
+  ]
+}
