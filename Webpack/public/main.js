@@ -79,7 +79,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Human; });\nclass Human {\n\n  greet(){\n    return 'Hello World.'\n  }\n}\n\n//# sourceURL=webpack:///./src/human.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Human; });\n/* harmony import */ var _modules_moduleA__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/moduleA */ \"./src/modules/moduleA.js\");\n/* harmony import */ var _modules_moduleA__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_modules_moduleA__WEBPACK_IMPORTED_MODULE_0__);\n\n\nclass Human {\n\n  greet(){\n    return 'Hello World.'\n  }\n}\n\n//# sourceURL=webpack:///./src/human.js?");
 
 /***/ }),
 
@@ -92,6 +92,28 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _human__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./human */ \"./src/human.js\");\n\n\nconst clerk = new _human__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\n\nconsole.log(clerk.greet());\n\n//# sourceURL=webpack:///./src/main.js?");
+
+/***/ }),
+
+/***/ "./src/modules/moduleA.js":
+/*!********************************!*\
+  !*** ./src/modules/moduleA.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("const moduleB = __webpack_require__(/*! ./moduleB */ \"./src/modules/moduleB.js\");\nconsole.log(moduleB.salutation());\n\n//# sourceURL=webpack:///./src/modules/moduleA.js?");
+
+/***/ }),
+
+/***/ "./src/modules/moduleB.js":
+/*!********************************!*\
+  !*** ./src/modules/moduleB.js ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = {\n  salutation(){\n    return \"Hello, I'm Module B\";\n  }\n}\n\n//# sourceURL=webpack:///./src/modules/moduleB.js?");
 
 /***/ })
 
