@@ -13,9 +13,6 @@ export default props => {
         <a href="#/users">
           <i className="fa fa-users"></i> Users
         </a>
-        <a href="#/users">
-          <i className="fa fa-users"></i> Users
-        </a>
       </nav>
     </aside>
 

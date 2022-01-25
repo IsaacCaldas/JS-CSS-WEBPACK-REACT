@@ -1,0 +1,7 @@
+main > div {
+  background-color: var(--bg-dark);
+}
+
+.color {
+  background-color: var(--bg-dark);
+}
