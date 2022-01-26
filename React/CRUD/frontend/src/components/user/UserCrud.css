@@ -1,0 +1,7 @@
+.form .form-group, .form label, .form .col-12 {
+  background-color: var(--bg-dark);
+}
+
+.rows i{
+  background-color: transparent;
+}

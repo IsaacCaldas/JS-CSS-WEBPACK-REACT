@@ -20,3 +20,20 @@ aside.menu-area nav, i{
 .menu a:nth-child(1){
   padding: 15px 15px 0px;
 }
+
+@media(max-width: 768px){
+  .menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .menu a{
+    display: inline;
+    padding: 10px;
+    margin: 0px;
+  }
+  .menu{
+    height: 100%;
+    justify-content: space-around;
+  }
+}

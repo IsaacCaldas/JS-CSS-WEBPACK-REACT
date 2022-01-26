@@ -1,19 +1,19 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Isaac Tavares Caldas Gonçalves",
-      "email": "isaacdev@gmail.com"
+      "name": "Santos F.C",
+      "email": "santosfc@br.com",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "João Hcode",
-      "email": "joao@hcode.com"
+      "name": "São Paulo F.C",
+      "email": "saopaulofc@br.com",
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Wagner Cardoso",
-      "email": "wagnercardoso@bootstrap.com"
+      "name": "CR Flamengo",
+      "email": "cr_flamengo@br.com",
+      "id": 3
     }
   ]
 }
